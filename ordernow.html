@@ -38,6 +38,17 @@
             z-index: 1049;
             display: none;
         }
+        @media (max-width: 768px) {
+        #cartContainer {
+            width: 100%;
+            right: -100%;
+        }
+        #cartContainer.show {
+            right: 0;
+        }
+        #cartOverlay {
+            display: block;
+        }
     </style>
 </head>
 <body>
